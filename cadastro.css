@@ -1,0 +1,27 @@
+.cad{display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0
+    
+}
+ 
+#htexto {margin-bottom: 20px;}
+
+#cad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  form {
+    width: 300px;
+    padding: 20px;
+    background-color: rgb(79, 3, 165);
+    border-radius: 5px;
+  }

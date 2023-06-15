@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'DM Mono', monospace;
+    align-items: center;
+    color: #57beee;
+    
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 25px;
+    color: #f0db25;
+}
+
+.nav-itens {
+    padding-top: 20px;
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+    color: #57beee;
+}
+
+.nav-itens>li>a {
+    padding-left: 20px;
+    color: #57beee;
+    text-decoration: none;
+}
+
+.login {
+    padding: 10px 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    color: #202020;
+    background-color: #fff;
+    font-family: 'DM Mono', monospace;
+    cursor: pointer;
+}
+
+.cadastro {
+    padding: 10px 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #5a1468;
+    font-family: 'DM Mono', monospace;
+    cursor: pointer;
+    transition: 1s background;
+}
+
+.cadastro:hover {
+    background-color: #e7bb2a;
+    transition: 2s background;
+}
